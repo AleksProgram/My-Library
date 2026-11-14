@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700&family=Rajdhani:wght@400;500;600;700&display=swap');
+
+:root {
+  font-family: 'Rajdhani', 'Arial Narrow', sans-serif;
+  color: #e8f0f7;
+  background: #080b12;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  --ink: #e8f0f7;
+  --muted: #92a0b3;
+  --panel: #111a26;
+  --line: rgba(143, 174, 204, .18);
+  --cyan: #57f4e5;
+  --pink: #ff5aa9;
+  --heading: 'Orbitron', 'Arial', sans-serif;
+}
+
+* { box-sizing: border-box; }
+html { min-width: 320px; min-height: 100%; background: #080b12; }
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(ellipse at 8% 0%, rgba(27, 111, 127, .18), transparent 34rem),
+    radial-gradient(ellipse at 96% 12%, rgba(132, 38, 91, .14), transparent 32rem),
+    linear-gradient(rgba(255,255,255,.018) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.018) 1px, transparent 1px),
+    #080b12;
+  background-size: auto, auto, 42px 42px, 42px 42px, auto;
+  background-attachment: fixed;
+}
+#root { width: 100%; min-height: 100vh; }
+button, input, select { font: inherit; }
+h1, h2, h3, p { margin-top: 0; }
+h2, h3 { color: var(--ink); }
+::selection { color: #071014; background: var(--cyan); }
